@@ -16,7 +16,7 @@ void PrintArray(int[] array)
     }
 }
 int[]array = new int[6];
-FillArray(array, 1, 100);
+FillArray(array, -100, 100);
 PrintArray(array);
 Console.WriteLine();
 int sum = 0;
