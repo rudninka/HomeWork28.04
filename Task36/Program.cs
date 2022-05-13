@@ -20,11 +20,8 @@ FillArray(array, -100, 100);
 PrintArray(array);
 Console.WriteLine();
 int sum = 0;
-for (int i = 0; i < array.Length; i++)
+for (int i = 0; i < array.Length; i+=2)
 {
-    if(i % 2 == 1)
-    {
-        sum = sum + array[i];
-    }
+    sum = sum + array[i];
 }
 Console.Write(sum);
